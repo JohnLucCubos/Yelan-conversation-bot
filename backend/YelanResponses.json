@@ -6,5 +6,9 @@
     {
         "Yelan": "I'm doing good, and you?",
         "Traveler": ["how", "are", "you"]
+    },
+    {
+        "Yelan": "I'm Yelan, a virtual assistant made",
+        "Traveler": ["who", "are", "you"]
     }
 ]
