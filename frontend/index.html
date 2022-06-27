@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="YelanStyle.css">
+    <title>Yelan Bot</title>
+</head>
+  <body>
+
+    <!-- Menu -->
+    <div class="menu">
+      <input class="UserOptions" onclick="getUsers()" type="button">
+    </div>
+    <!-- Bot Interaction -->
+    <div class="content">
+        <div id="DialogueBox"></div>
+        <input id="UserInput" type="text" placeholder="Hello traveller, got something to say?">
+        <input id="UserEnter" type="button" onclick="sendData()">
+    </div>
+    <div hidden><span>Last update: </span><span id="time-container"></span></div>
+    <div class="imgbox">
+      <img class="center-fit" src="https://imgur.com/0CUFbZG.png" alt="yelan"/>
+    </div>
+    <!-- Javascript -->
+    <script src="YelanAlgorithm.js"></script>
+  </body>
+</html>
