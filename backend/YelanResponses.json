@@ -1,0 +1,10 @@
+[
+    {
+        "Yelan": "Greetings",
+        "Traveler": ["Hi", "Hello", "Greetings"]
+    },
+    {
+        "Yelan": "I'm doing good, and you?",
+        "Traveler": ["how", "are", "you"]
+    }
+]
